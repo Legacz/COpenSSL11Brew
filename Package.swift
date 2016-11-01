@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "COpenSSL11Brew",
-  pkgConfigName: "openssl",
+  pkgConfig: "openssl",
   providers: [
     .Brew(installName: "openssl@1.1")
   ]
